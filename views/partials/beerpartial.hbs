@@ -1,0 +1,19 @@
+<div class="beer-card">
+
+    {{#each responseFromAPI}}
+    
+    <div>
+        <img src="{{image_url}}"/>
+    </div>
+
+    <div class="beer-content">
+
+        <li><h1>{{name}}</h1></li>
+        <li class="tagline">{{tagline}}</li>
+        <li><strong>Description: </strong>{{description}}</li>
+
+    </div>
+    
+    {{/each}}
+    
+</div>

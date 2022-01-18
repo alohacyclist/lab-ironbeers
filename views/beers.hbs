@@ -1,0 +1,24 @@
+<div class="beer-container">
+
+    {{#each beersFromApi}}
+    <div class="beer-table">
+
+    <ul class="beer-card"> 
+    
+        <div>
+            <img src="{{image_url}}">
+        </div>
+        
+        <div class="info">
+            <li><h1>{{name}}</h1></li>
+            <li class="tagline">{{tagline}}</li>
+            <li>Description: {{description}}</li>
+        </div>
+        
+    </ul>
+
+    </div>
+    
+    {{/each}}
+   
+</div>
